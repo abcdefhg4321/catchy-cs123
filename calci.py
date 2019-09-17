@@ -35,22 +35,22 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 i=1
 while i==1:
-    choice = input("Enter choice(1/2/3/4/5):")
-    if choice == '1':
+    choice = input("Enter choice(+,-,*,/,sin,cos,tan exit):")
+    if choice == '+':
         print(num1,"+",num2,"=", add(num1,num2))
-    elif choice == '2':
+    elif choice == '-':
         print(num1,"-",num2,"=", subtract(num1,num2))
-    elif choice == '3':
+    elif choice == '*':
         print(num1,"*",num2,"=", multiply(num1,num2))
-    elif choice == '4':
+    elif choice == '/':
         print(num1,"/",num2,"=", divide(num1,num2))
-    elif choice == '5':
+    elif choice == 'sin':
         print("sin(",num1,")=", sin(num1))
-    elif choice == '6':
+    elif choice == 'cos':
         print("cos",num1,"=", cos(num1))
-    elif choice == '7':
+    elif choice == 'tan':
         print("tan",num1,"=", tan(num1))
-    elif choice == '8':
+    elif choice == 'bye':
         print("Exit. Good Bye")
         i=0
     else:    
