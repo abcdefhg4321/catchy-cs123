@@ -35,7 +35,7 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 i=1
 while i==1:
-    choice = input("Enter choice(+,-,*,/,sin,cos,tan exit):")
+    choice = input("Enter choice(+,-,*,/,sin,cos,tan,exit):")
     if choice == '+':
         print(num1,"+",num2,"=", add(num1,num2))
     elif choice == '-':
@@ -50,7 +50,7 @@ while i==1:
         print("cos",num1,"=", cos(num1))
     elif choice == 'tan':
         print("tan",num1,"=", tan(num1))
-    elif choice == 'bye':
+    elif choice == 'exit':
         print("Exit. Good Bye")
         i=0
     else:    
